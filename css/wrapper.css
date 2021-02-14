@@ -8,3 +8,27 @@
   margin: 0 calc(50% - 720px);
   transform: translate(0%, -50%);
 }
+@media (max-width: 1300px) {
+  .wrapper {
+    width: 1300px;
+    margin: 0 calc(50% - 650px);
+  }
+}
+@media (max-width: 1150px) {
+  .wrapper {
+    width: 1150px;
+    margin: 0 calc(50% - 575px);
+  }
+}
+@media (max-width: 1050px) {
+    .wrapper {
+      width: 500px;
+      margin: 0 calc(50% - 250px);
+      transform: translate(0%, -35%);
+    }
+@media (max-width: 500px) {
+    .wrapper {
+      width: 400px;
+      margin: 0 calc(50% - 200px);
+      transform: translate(0%, -25%);
+    }

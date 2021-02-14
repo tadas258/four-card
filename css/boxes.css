@@ -37,3 +37,49 @@
   align-self: flex-end;
   justify-self: flex-end;
 }
+
+@media (max-width: 1300px) {
+  .card {
+    width: 340px;
+    height: 260px;
+  }
+}
+@media (max-width: 1150px) {
+  .card {
+    width: 320px;
+    height: 240px;
+  }
+  .card > p {
+    font-size: 13px;
+    line-height: 18px;
+  }
+  .left-column > .card {
+    margin-bottom: 30px;
+  }
+  .right-column > .card {
+    margin-bottom: 40px;
+  }
+}
+@media (max-width: 500px) {
+  .card {
+    width: 280px;
+    height: 200px;
+  }
+  .card > p {
+    font-size: 10px;
+    line-height: 14px;
+  }
+  .card > h3 {
+    font-size: 15px;
+    margin-bottom: 15px;
+  }
+  .left-column > .card {
+    margin-bottom: 30px;
+  }
+  .right-column > .card {
+    margin-bottom: 40px;
+  }
+  .card > img {
+    height: 40px;
+  }
+}
