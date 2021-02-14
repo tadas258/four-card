@@ -1,0 +1,17 @@
+.cards-section {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 70px;
+  padding: 0 100px;
+}
+.left-column,
+.right-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.middle-column > .card {
+  margin-bottom: 30px;
+}
