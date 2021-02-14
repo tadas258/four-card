@@ -1,8 +1,39 @@
 .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
   width: 380px;
   height: 280px;
   padding: 35px;
   border-radius: 10px;
-  border-top: 4px solid blue;
-  box-shadow: 0 10px 20px rgba(128, 128, 128, 0.479);
+  border-top: 4px solid;
+  box-shadow: 0 10px 20px rgba(143, 172, 206, 0.507);
+}
+.left-column > .card {
+  border-color: var(--main-cyan);
+}
+.middle-column > .card:first-child {
+  border-color: var(--main-red);
+}
+.middle-column > .card:last-child {
+  border-color: var(--main-orange);
+}
+.right-column > .card {
+  border-color: var(--main-blue);
+}
+.card > h3 {
+  text-transform: capitalize;
+  font-weight: 600;
+  color: var(--neutral-dark-blue);
+}
+.card > p {
+  font-size: 15px;
+  margin-top: -35px;
+  font-weight: 200;
+  color: var(--neutral-blue);
+}
+.card > img {
+  align-self: flex-end;
+  justify-self: flex-end;
 }
