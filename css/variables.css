@@ -1,0 +1,12 @@
+:root {
+  /* Primary colors */
+  --main-red: hsl(0, 78%, 62%);
+  --main-cyan: hsl(180, 62%, 55%);
+  --main-orange: hsl(34, 97%, 64%);
+  --main-blue: hsl(212, 86%, 64%);
+
+  /* Neutral colors */
+  --neutral-dark-blue: hsl(234, 12%, 34%);
+  --neutral-blue: hsl(229, 6%, 66%);
+  --neutral-light-gray: hsl(0, 0%, 98%);
+}
